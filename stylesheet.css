@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  /*font-family: "Hiragino Kaku Gothic ProN";*/
+  font-family: "Hiragino Maru Gothic ProN", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear{
+	clear:left;
+}
+
+.active{
+	display:block;
+}
+
+.menu{
+	position:fixed;
+	right:30px;
+	top:40px;
+	z-index:10;
+	cursor:pointer;
+	color:white;
+	padding:10px;
+}
+
+.menu1{
+	position:fixed;
+	top:100px;
+	right:-190px;
+	/*height:300px;
+	width:150px;*/
+	background-color:rgba(0,0,0,0.4);
+	padding:30px 20px;
+	z-index:9;
+	border:solid 1px rgba(0,0,0,0.3);
+
+}
+
+
+
+.content{
+	line-height:40px;
+	width:130px;
+	height:50px;
+	padding-top:5px;
+	cursor:pointer;
+}
+
+.content a{
+	color:white;
+	display:block;
+}
+
+.content-bar{
+	border-bottom:solid 1px white;
+	z-index:90;
+	width:0px;
+	margin-top:-5px;
+}
+
+.wrapper1{
+	background-image:url(1.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	height:500px;
+	position:relative;
+	padding-top:200px;
+	text-align:center;
+	color:white;
+	border-bottom:solid 1px black;
+}
+
+.wrapper1 h1{
+	font-size:70px;
+}
+
+.wrapper1 p{
+	margin-top:0px;
+	font-size:30px;
+}
+
+.wrapper2{
+	background-image:url(2.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	height:600px;
+	position:relative;
+	padding-top:30px;
+	color:white;
+	border-bottom:solid 1px black;
+}
+
+.section{
+	font-size:50px;
+	text-align:center;
+}
+
+.wrapper2-1{
+	display:flex;
+	justify-content:space-between;
+	width:850px;
+	margin:0 auto;
+}
+
+.picture1{
+	width:200px;
+	margin:30px auto;
+	display:block;
+}
+
+.wrapper2-1-1 li{
+	font-size:25px;
+}
+
+.wrapper2-1-1{
+	height:350px;
+	width:350px;
+	background-color:rgba(0,0,0,0.4);
+	padding:10px;
+	border:solid 1px rgba(0,0,0,0.3);
+}
+
+.wrapper3{
+	background-image:url(3.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	height:600px;
+	position:relative;
+	padding-top:30px;
+	color:white;
+	border-bottom:solid 1px black;
+}
+
+
+.programing{
+	margin-left:30px;
+}
+
+.wrapper4{
+	background-image:url(4.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	height:600px;
+	position:relative;
+	padding-top:30px;
+	border-bottom:solid 1px black;
+	color:white;
+}
+
+.wrapper4-4{
+	position:relative;
+	border-bottom:solid 1px black;
+	width:500px;
+	cursor:pointer;
+}
+
+.hobby li{
+	list-style: none;
+}
+
+.wrapper4-1{
+	background-color:rgba(0,0,0,0.4);
+	height:300px;
+	width:600px;
+	margin:0 auto;
+	padding-top:30px;
+	border:solid 1px rgba(0,0,0,0.3);
+}
+
+.wrapper4-4 span{
+	position:absolute;
+	right:20px;
+}
+
+.hobby{
+	margin:0 auto;
+	width:500px;
+
+}
+
+.answer{
+	display:none;
+}
+
+.wrapper5{
+	background-image:url(5.png);
+	background-size:cover;
+	background-attachment:fixed;
+	height:600px;
+	padding-top:30px;
+}
+
+.wrapper5-0{
+	margin-top:100px;
+}
+
+.wrapper5-1{
+	font-size:25px;
+	margin:0 auto;
+	text-align:center;
+	background-color:rgba(0,0,0,0.4);
+	height:80px;
+	width:500px;
+	color:white;
+}
+
+.wrapper5-1 p{
+	line-height:80px;
+}
+
+.wrapper5-1 a{
+	color:white;
+}
+
