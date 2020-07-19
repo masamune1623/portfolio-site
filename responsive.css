@@ -1,0 +1,19 @@
+@media (max-width: 700px) {
+  
+  .wrapper2-1 {
+    display: block;
+    width: 100%;
+  }
+
+  .wrapper2-1-1 {
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  .erapper2-1-1:first-child {
+    margin-top: 0px;
+  }
+
+
+
+}
